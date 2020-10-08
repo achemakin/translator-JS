@@ -1,0 +1,52 @@
+@import 'https://fonts.googleapis.com/css?family=Ubuntu:400,500&subset=latin,cyrillic';
+
+html, body {
+  width: 100%;
+}
+
+body {
+  font-family: 'Ubuntu', serif; font-size: 36px;
+  background: #00f; color: #fff;
+  display: flex; 
+  justify-content: center; 
+}
+
+form {
+    padding: 20px;
+    text-align: center;        
+}
+
+.select {
+    font-size: 36px;
+
+    background: #00f; color: #fff;
+
+}
+
+textarea {
+    display: block;
+
+    width: 100%;
+    height: 200px;
+
+    margin: 20px 0;
+
+    font-size: 36px;
+    background: #00f; color: #fff;
+    resize: none;
+}
+
+.copyright {
+    font-size: 15px;
+    color: #fff;
+}
+
+.btn {
+    font-size: 36px;
+    background: #00f; color: #fff;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Модуль 11. Переводчик</title>
+
+        <link rel="stylesheet" href="./styles.css">
+
+        <script defer src="./script.js"></script>
+    </head>
+
+    <body>
+        <form name = "translateYandex">
+            <fieldset> 
+                <legend>
+                    <h1>Переводчик</h1>
+                </legend> 
+                    
+                <select name="selectFrom" class="select js-selectFrom">
+                    <option value = "ru">Русский</option>
+                    <option value = "en">Английский</option>
+                    <option value = "de">Немецкий</option>
+                    <option value = "it">Итальянский</option>
+                </select>
+
+                <span>&#60;=Направление перевода=&#62;</span>
+
+                <select name="selectTo" class="select js-selectTo">
+                    <option value = "en">Английский</option>
+                    <option value = "ru">Русский</option>
+                    <option value = "de">Немецкий</option>
+                    <option value = "it">Итальянский</option>
+                </select> 
+               
+                <textarea name="text" placeholder="Максимальное число символов не должно превышать 10 000." maxlength="10000" required></textarea>
+
+                <button  class="btn js-btnAddCase" type="submit">Перевести</button>
+            </fieldset>
+            
+            <a class = "copyright" href="http://translate.yandex.ru" target="_blank">Переведено сервисом «Яндекс.Переводчик»</a>
+        </form> 
+    </body> 
+</html>
